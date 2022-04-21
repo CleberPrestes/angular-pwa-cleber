@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1650548695819,
+  "index": "/angular-pwa-cleber/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-pwa-cleber/favicon.ico",
+        "/angular-pwa-cleber/index.html",
+        "/angular-pwa-cleber/main.30a54eca97bfab725a0a.js",
+        "/angular-pwa-cleber/manifest.webmanifest",
+        "/angular-pwa-cleber/polyfills.10d393e8891951d93109.js",
+        "/angular-pwa-cleber/runtime.3c8d87bf2315cba10fc2.js",
+        "/angular-pwa-cleber/styles.31d6cfe0d16ae931b73c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-pwa-cleber/assets/icons/icon-128x128.png",
+        "/angular-pwa-cleber/assets/icons/icon-144x144.png",
+        "/angular-pwa-cleber/assets/icons/icon-152x152.png",
+        "/angular-pwa-cleber/assets/icons/icon-192x192.png",
+        "/angular-pwa-cleber/assets/icons/icon-384x384.png",
+        "/angular-pwa-cleber/assets/icons/icon-512x512.png",
+        "/angular-pwa-cleber/assets/icons/icon-72x72.png",
+        "/angular-pwa-cleber/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angular-pwa-cleber/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/angular-pwa-cleber/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/angular-pwa-cleber/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/angular-pwa-cleber/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/angular-pwa-cleber/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/angular-pwa-cleber/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/angular-pwa-cleber/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/angular-pwa-cleber/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/angular-pwa-cleber/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/angular-pwa-cleber/index.html": "fa8597d2f07198771640dbfb2bb6500514f1a475",
+    "/angular-pwa-cleber/main.30a54eca97bfab725a0a.js": "e69b8a46ee31f8d0d71444ba78e578708ae38441",
+    "/angular-pwa-cleber/manifest.webmanifest": "b33c1eafab74d6cb88a25acee6fc4ccffad582d2",
+    "/angular-pwa-cleber/polyfills.10d393e8891951d93109.js": "c769b75ccec4af0223eeaa42823cf1ff5e9b5846",
+    "/angular-pwa-cleber/runtime.3c8d87bf2315cba10fc2.js": "702b6a12e171c9ab79713a50f000c87c42763fbc",
+    "/angular-pwa-cleber/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
